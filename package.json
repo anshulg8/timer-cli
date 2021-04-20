@@ -1,0 +1,24 @@
+{
+  "name": "timer-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "go-npm install",
+    "preuninstall": "go-npm uninstall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anshulg8/timer-cli.git"
+  },
+  "dependencies": {
+    "go-npm": "^0.1.9"
+  },
+  "goBinary": {
+    "name": "timer-cli",
+    "path": "./bin",
+    "url": "https://github.com/anshulg8/timer-cli/releases/download/v{{version}}/timer-cli{{version}}_{{platform}}_{{arch}}.tar.gz"
+  },
+  "author": "Anshul Garg",
+  "license": "ISC"
+}
