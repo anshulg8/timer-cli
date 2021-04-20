@@ -1,0 +1,8 @@
+builds:
+  - binary: timer-cli
+    goos:
+      - windows
+      - darwin
+      - linux
+    goarch:
+      - amd64
